@@ -2,6 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <meta charset="utf-8">
     <title>Matthew J. Hoppe's Resume</title>
   </head>
   <body>
@@ -11,14 +23,19 @@
         <h2>20 Bowdoin St. Winthrop, MA, 02152</h2>
       </address>
       <h3><a href="mailto:mhoppe25@gmail.com">mhoppe25@gmail.com</a></h3>
+      <nav>
+        <p><a href="#experience">Experience</p></a>
+        <p><a href="#eduction">Education</p></a>
+        <p><a href="#skills">Skills</p></a>
+      </nav>
     </header>
-    <section>
-      <p>
-        Ambitious, creative professional driven by social impact. Management
-is something that comes naturally and by impulse. Strive to better everything that passes by.
-      </p>
-    </section>
-    <section>
+<section>
+    <p>
+Ambitious, creative professional driven by social impact. Management is something that comes naturally and by impulse. Strive to better everything that comes into my life, peronally or professionally.
+    </p>
+</section>
+<div id="flexbox">
+    <section class="left" id="experience">
         <h2>Experience:</h2>
       <p>
         <h3>Market Basket,   Tewksbury, Ma</h3>
@@ -63,7 +80,7 @@ is something that comes naturally and by impulse. Strive to better everything th
             <li>Headed 3-4 person team and directed each individual to proper work assignments</li>
           </ul>
     </section>
-    <section>
+    <section class="right" id="education">
       <p>
         <h2>Education and Training:</h2>
       </p>
@@ -95,7 +112,8 @@ is something that comes naturally and by impulse. Strive to better everything th
 	      Received G.E.D
       </p>
     </section>
-    <footer>
+  </div>
+    <footer id="skills">
       <p>
         <h2>Skills and Extra Curricular:</h2>
       </p>
