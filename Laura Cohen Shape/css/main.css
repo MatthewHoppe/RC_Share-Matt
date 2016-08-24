@@ -94,15 +94,148 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   -/* Box Model Hack */
+    * {
+      -moz-box-sizfont-family:  source sans pro;ing: border-box; /* Firexfox */
+      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+      box-sizing: border-box; /* IE */
+      font-family: 'Source Sans Pro', sans-serif;
+      background-color: white;
+      }
+
+body {
+  margin: -65px 15px 0 15px;
+  line-height: 41px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  line-height: 1px;
+}
+
+header h1 {
+  font-size: 481px;
+}
+
+h2 {
+  margin: 37px;
+}
+
+h3 {
+  margin: 0 0 0 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -105px;
+}
 
 
+#lauren {
+  height: 1500px;
+  position: absolute;
+  left: 229px;
+  top: 21px;
+}
+
+/*colors & style*/
+
+.brown {
+  color: #5A4B3C;
+}
+
+.pink {
+  color: #D8158C;
+}
+
+.red {
+  color: #F03124;
+}
+
+.black {
+  color: #090B1A;
+}
+
+.yellow {
+  color: #EAE11C;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+/*left box*//
+
+.leftBox {
+  width: 342px;
+}
+
+.big-font {
+  font-size: 65pt;
+  margin-top: -20px;
+  line-height: 49px;
+ }
+
+.small-font {
+  font-size: 36pt;
+}
+
+.big3 {
+  font-size: 80pt;
+}
+
+.big36 {
+  font-size: 70pt;
+}
+
+.jump-start {
+  margin-left: 28px;
+}
+
+.abs {
+  margin-left: 41px;
+  margin-top: 0px;
+}
+
+.lean {
+  margin-left: 27px;
+}
 
 
+/*right box*/
 
+.right{
+  text-align: right;
+}
 
+.arrow-container {
+margin-right: 36px;
+background-image: url("../img/left-round-xxl.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
 
+.arrow-container h2 {
+  margin: 0 0 0 0;
+}
 
+.date {
+  margin-right: 36px;
+  line-height: 0px;
+}
 
+.underline {
+    border-bottom: 2px solid #D8158C;
+}
+
+.happy-under {
+  line-height: 64px;
+}
 
 
 
