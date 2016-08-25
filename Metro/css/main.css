@@ -95,9 +95,140 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* Box Model Hack */
+-* {
+   -moz-box-sizing: border-box; /* Firexfox */
+   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */…border-box; /* Firexfox */
+   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+   box-sizing: border-box; /* IE */
+   margin: 0 10px 7px 10px;
+   line-height: 12px;
 
+}
 
+body {
+  line-height: 0px;
+  font-family: fantasy;
+}
 
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.metro {
+  width: 65%;
+  height: 387px;
+  background: url('../img/metro_logo_new.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #008840;
+}
+
+ .buress1 {
+  width: 35%;
+  height: 387px;
+  background-image: url('../img/buress.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+.bannertop {
+  margin: -54px 0 -65px 0;
+
+}
+.bannerbottom, .olympic, .bannertop {
+  width: 100%;
+}
+
+.buress1 h5 {
+  margin: 25px 0px 0 403px;
+}
+
+.maincontainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.jaredinfo {
+  font-size: 24pt;
+  text-align: left;
+  background-color: yellow;
+  width: 65%;
+}
+
+.jaredinfo h4 {
+  font-size: 16pt;
+}
+
+.jaredinfo {
+  padding-left: 50px;
+  margin-right: -50px;
+  margin-top: 10px;
+}
+
+.greeninfo {
+  margin-top: 10px;
+  text-align: center;
+  background-color: green;
+  width: 35%;
+  color: white;
+  font-size: 18pt;
+}
+
+.olympic {
+  width: 100%;
+  height: 949px;
+}
+
+.leto {
+  position: absolute;
+  top: -11px;
+  left: 533px;
+
+}
+
+.pbox  {
+  font-size: 18pt;
+  color: white;
+  position: absolute;
+  left: 972px;
+  top: 1261px;
+  transform: rotate(-5deg);
+}
+
+.rioready {
+  color: white;
+  font-size: 77pt;
+  position: absolute;
+  left: 118px;
+  top: 1322px;
+}
+
+.metro h2 {
+  margin: 301px 0 0 57px;
+  line-height: 15px;
+  font-size: 23pt;
+  color: white;
+}
+
+.metro h4 {
+  margin-left: 57px;
+  font-size: 12pt;
+  color: white;
+}
+
+.metro a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.boston {
+  font-weight: bold;
+}
 
 
 
